@@ -68,9 +68,6 @@ body{
     font-family: 'Kreon', serif;
 }
 
-.regions {
-    /* margin-top: 50px; */
-}
 .padding-top{
     padding-top: 5rem;
 }
@@ -84,6 +81,7 @@ body{
 .hugefont{
     font-size: 1.5rem;
 }
-.venti:hover{
-    border-bottom: solid 5px black;
+.massivefont{
+    font-size: 2.5rem;
 }
+

@@ -511,7 +511,10 @@ body {
   
   .modal-body {
     padding: 10px 20px;
-    background: #fff;
+    background: #ffddd0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    color: black;
   }
   
   .modal-footer {
