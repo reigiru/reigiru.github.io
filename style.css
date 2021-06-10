@@ -22,7 +22,7 @@
     -moz-transition: left 0.3s;
     transition: left 0.3s;
     /* определяем цвет фона панели */
-    background: #000000;
+    background: #F0E68C;
     /* поверх других элементов */
     z-index: 2000;
 }
@@ -308,7 +308,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
-    color: #dadada;
+    color: #000000;
     width: 100%;
     text-decoration: none;
     /* плавный переход */
@@ -324,7 +324,7 @@ body {
 
 .nav>ul>li>a:hover,
 .nav>ul>li>a:focus {
-    color: white;
+    color: #000;
     padding-left: 15px;
 }
 
@@ -353,7 +353,7 @@ body {
     bottom: 0;
     height: 1px;
     width: 100%;
-    background: #3bc1a0;
+    background: #CD853F;
     -webkit-transition: width .5s ease;
     transition: width .5s ease;
 }
@@ -475,65 +475,7 @@ body {
 
 /* EVERYTHING ELSE */
 
-@media (min-width: 668px) {
-    .karusel>.carousel-item {
-        height: 980px;
-    }
-}
-
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 360px;
-    left: 15%;
-    font-weight: 100;
-}
-
-.carousel-caption>img {
-    width: 550px;
-}
-
-.mainone {
-    display: flex;
-    flex-direction: row;
-    overflow: visible;
-}
-
-.mainone>.picture>img {
-    width: 900px;
-}
-
-.tempdivider {
-    background-color: #fffdd0;
-}
-
-.bgcolor {
-    background-color: #fffdd0;
-}
-
-.mainone>.text {
-    margin-left: 100px;
-}
 
 
-/*font*/
-
-body{
-    scroll-behavior: smooth;
-    font-family: 'Kreon', serif;
-}
-
-.regions {
-    margin-top: 50px;
-}
 
 
-.teyvat{
-    font-size: 1.2rem;
-}
-.citycss{
-    border-radius: 50%;
-}
-.hugefont{
-    font-size: 1.5rem;
-}

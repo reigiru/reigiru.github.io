@@ -1,0 +1,52 @@
+.big-banner{
+    background-image: url(genshinbgg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.mainone {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+}
+
+.mainone>.picture>img {
+    width: 900px;
+}
+
+.tempdivider {
+    background-color: #fffdd0;
+}
+
+.bgcolor {
+    background-color: #fffdd0;
+}
+
+.mainone>.text {
+    margin-left: 100px;
+}
+
+
+/*font*/
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Kreon', serif;
+}
+
+.regions {
+    /* margin-top: 50px; */
+}
+.padding-top{
+    padding-top: 5rem;
+}
+
+.teyvat{
+    font-size: 1.2rem;
+}
+.citycss{
+    border-radius: 50%;
+}
+.hugefont{
+    font-size: 1.5rem;
+}
