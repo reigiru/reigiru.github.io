@@ -4,6 +4,36 @@
     height: 100vh;
 }
 
+.big-banner-dark{
+    /* background-image: url(genshinbg.png);
+    background-size: cover; */
+    height: 20vh;
+}
+/*GLOWING BORDER*/
+
+.glowing-border { 
+    outline: none;
+    border-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700;
+    border-radius: 10px;
+}
+.glowing-border:hover{
+    box-shadow: 0 0 20px #ffd700;
+}
+.body-characters{
+    background-image: url(starrysky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.maincontentcss{
+    background-color: #2a4b7cc7;
+    border-radius: 20px;
+    color: #ffd700;
+}
+.charactername{
+    font-size: 8rem;
+}
 .mainone {
     display: flex;
     flex-direction: row;
@@ -16,6 +46,10 @@
 
 .tempdivider {
     background-color: #fffdd0;
+}
+
+.tempdivider-golden {
+    width: 50%;
 }
 
 .bgcolor {
@@ -49,4 +83,7 @@ body{
 }
 .hugefont{
     font-size: 1.5rem;
+}
+.venti:hover{
+    border-bottom: solid 5px black;
 }
