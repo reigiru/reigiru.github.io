@@ -1,3 +1,10 @@
+window.onload = function () {
+    let preloader = document.getElementById('preloader');
+    setTimeout(() => {
+        preloader.style.display = 'none';
+    }, 1000);
+};
+
 AOS.init({
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

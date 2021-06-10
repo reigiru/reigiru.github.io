@@ -409,7 +409,71 @@ body {
 */
 
 
-/* NOT A MENU */
+/*THE PRELOADER*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    z-index: 9000;
+    overflow: hidden;
+}
+.cssload-container {
+	width: 100%;
+	height: 44px;
+	text-align: center;
+}
+
+.cssload-zenith {
+	width: 44px;
+	height: 44px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	box-shadow: 3px 3px 1px rgb(0,0,0);
+	animation: cssload-spin 390ms infinite linear;
+		-o-animation: cssload-spin 390ms infinite linear;
+		-ms-animation: cssload-spin 390ms infinite linear;
+		-webkit-animation: cssload-spin 390ms infinite linear;
+		-moz-animation: cssload-spin 390ms infinite linear;
+}
+
+
+
+@keyframes cssload-spin {
+	100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-spin {
+	100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-spin {
+	100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-spin {
+	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-spin {
+	100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+
+/*END OF THE PRELOADER*/
+
+
+
+
+/* EVERYTHING ELSE */
 
 @media (min-width: 668px) {
     .karusel>.carousel-item {
@@ -460,8 +524,16 @@ body{
 }
 
 .regions {
-    margin-top: 10px;
+    margin-top: 50px;
 }
+
+
 .teyvat{
     font-size: 1.2rem;
+}
+.citycss{
+    border-radius: 50%;
+}
+.hugefont{
+    font-size: 1.5rem;
 }
