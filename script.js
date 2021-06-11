@@ -28,14 +28,29 @@ AOS.init({
   
   });
 
+
+
+
+
+
+  var modalBtns = [...document.querySelectorAll(".button")];
+  modalBtns.forEach(function(btn){
+    btn.onclick = function() {
+      var modal = btn.getAttribute('data-modal');
+      document.getElementById(modal).style.display = "block";
+    }
+  });
   
-  $(".open_popup").click(function () {
-    $(this).parent(".popup_main").children(".popup_body").addClass("popup_body_show");
-    });
-  $(".popup_close").click(function () {
-    $(".popup_body").removeClass("popup_body_show");
-    });
-  $(".popup_back").click(function () {
-    $(".popup_body").removeClass("popup_body_show");
-    });
- 
+  var closeBtns = [...document.querySelectorAll(".close")];
+  closeBtns.forEach(function(btn){
+    btn.onclick = function() {
+      var modal = btn.closest('.modal');
+      modal.style.display = "none";
+    }
+  });
+  
+  window.onclick = function(event) {
+    if (event.target.className === "modal") {
+      event.target.style.display = "none";
+    }
+  }
